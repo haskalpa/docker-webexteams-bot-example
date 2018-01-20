@@ -17,6 +17,12 @@ You need a machine with Docker. Both Linux and window are supported and should j
 - https://docs.docker.com/docker-for-mac/install/
 
 ### Technologies used
+#### 1. Docker
+The most trendy container technology for running modern software apps particulalry in the cloud.
+read up more @ https://www.docker.com/what-docker
+
+#### 2. Ngrok
+
 
 ## Actually getting started
 ### 1. clone this repo recursively with submodules
