@@ -11,13 +11,14 @@ This should get you started with a Cisco Spark Bot very quickly.
 
 ### Getting started
 You need a machine with Docker. Both Linux and window are supported and should just work for Mac as well.
-see on how to install Docker
+#### for installing Docker see
 - https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 - https://docs.docker.com/docker-for-windows/install/
 - https://docs.docker.com/docker-for-mac/install/
 
 ### Technologies used
 
+### Actually getting started
 ```
 git clone --recursive https://github.com/haskalpa/docker-spark-bot-example.git
 ./build.sh 
