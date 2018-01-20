@@ -1,0 +1,3 @@
+[submodule "ciscosparkapi"]
+	path = ciscosparkapi
+	url = https://github.com/CiscoDevNet/ciscosparkapi.git
