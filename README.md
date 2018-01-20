@@ -102,3 +102,9 @@ root        34  0.0  0.0  18240  3384 pts/1    Ss   11:49   0:00 bash
 root        45  0.0  0.0  34424  2796 pts/1    R+   11:54   0:00 ps auxw  
 root@d9d108bf3ae6:/workspace# python hello_bot.py 
 ```
+
+# Looking for Ideas to improve
+### Cisco Spark Depot
+Cisco Spark is relatively very new but there are some public bot listing @ https://depot.ciscospark.com/
+
+> A spark bot can be a nice enhancement to get your application's functionality, interacting collaborating in a leading enterprise collaboration platform. 
