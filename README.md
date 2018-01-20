@@ -7,7 +7,7 @@ This should get you started with a Cisco Spark Bot very quickly.
 
 ### How to get my first bot
 1. go to: https://developer.ciscospark.com/apps.html
-2. create yourself a new bot and make a note of "Bot's Access Token"
+2. create yourself a new bot and make a note of **Bot's Access Token NOT** ID (you need to scrolldown)
 
 ### Getting started
 You need a machine with Docker. Both Linux and window are supported and should just work for Mac as well.
