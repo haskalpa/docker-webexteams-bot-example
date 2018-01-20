@@ -22,7 +22,9 @@ The most trendy container technology for running modern software apps particulal
 read up more @ https://www.docker.com/what-docker
 
 #### 2. Ngrok
-
+**problem**: for events between spark and your bot you need a public interface (webhook) where you can recieve events about new messages ect.
+You can setup a cloud instances which can be good for a production version of your bot but does for development turnaround your laptop makes a lot of sense. ngrok is pretty neat in the sense that you can have a public listening web interface from your machine behind a NAT.
+read up more @ https://ngrok.com/product
 
 ## Actually getting started
 ### 1. clone this repo recursively with submodules
