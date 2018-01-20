@@ -18,12 +18,12 @@ You need a machine with Docker. Both Linux and window are supported and should j
 
 ### Technologies used
 
-### Actually getting started
-1. clone this repo recursively with submodules
+## Actually getting started
+### 1. clone this repo recursively with submodules
 ```
 git clone --recursive https://github.com/haskalpa/docker-spark-bot-example.git
 ```
-2. make new config file with your new Bot's Access Token
+### 2. make new config file with your new Bot's Access Token
 may be:
 ```
 cd config/
@@ -31,7 +31,7 @@ cp config_example.yaml config.yaml
 vim config.yaml
 ```
 
-3. build
+### 3. build
 ```
 ./build.sh 
 ```
@@ -40,7 +40,7 @@ vim config.yaml
 win_build.bat
 ```
 
-4. run your bot
+### 4. run your bot
 ```
 ./run_hello_bot.sh 
 ```
@@ -49,6 +49,6 @@ win_build.bat
 win_run_hello_bot.bat
 ```
 
-5. In your spark client, make a room with your new bot adding it using bot's email address
+### 5. In your spark client, make a room with your new bot adding it using bot's email address
 say something to it. it should say hello back.
 
