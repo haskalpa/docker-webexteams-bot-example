@@ -1,4 +1,4 @@
-# DockerSparkBotExample
+# DockerWebexTeamsBotExample
 This should get you started with a *Cisco WebexTeams Bot very quickly.
 
 *used to be called Cisco Spark
@@ -62,7 +62,7 @@ win_build.bat
 win_run_hello_bot.bat
 ```
 
-### 5. In your spark client, make a room with your new bot adding it using bot's email address
+### 5. In your Webex Teams client, make a room with your new bot adding it using bot's email address
 say something to it. it should say hello back.
 
 # cheatsheet
@@ -106,7 +106,7 @@ root@d9d108bf3ae6:/workspace# python hello_bot.py
 ```
 
 # Looking for Ideas to improve
-### Cisco Spark Depot
-Cisco Spark is relatively very new but there are some public bot listing @ https://depot.ciscospark.com/
+### Cisco Webex Team Depot
+Cisco Webex Team  is relatively new but there are some public bot listing @ https://apphub.webex.com/
 
-> A spark bot can be a nice enhancement to get your application's functionality, interacting collaborating in a leading enterprise collaboration platform. 
+> A Webex Team's bot can be a nice enhancement to get your application's functionality, interacting collaborating in a leading enterprise collaboration platform. 
