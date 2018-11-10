@@ -3,7 +3,7 @@
 
 # 3rd party imports ------------------------------------------------------------
 from flask import Flask, request
-from ciscosparkapi import CiscoSparkAPI, Webhook
+from webexteamssdk import WebexTeamsAPI, Webhook
 
 # local imports ----------------------------------------------------------------
 from helpers import (read_yaml_data,
@@ -50,7 +50,7 @@ def sparkwebhook():
 
 if __name__ == '__main__':
     config = read_yaml_data('/opt/config/config.yaml')['hello_bot']
-    spark_api = CiscoSparkAPI(access_token=config['spark_access_token'])
+    spark_api = WebexTeamsAPI(access_token=config['spark_access_token'])
 
     ngrok_url = get_ngrok_url()
     webhook_name = 'hello-bot-wb-hook'
