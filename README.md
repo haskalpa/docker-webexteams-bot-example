@@ -8,8 +8,8 @@ This should get you started with a *Cisco WebexTeams Bot very quickly.
 2. click "Sign In" and enter your email address. Then follow the instructions presented.
 
 ### How to get my first bot
-1. go to: https://developer.ciscospark.com/apps.html
-2. create yourself a new bot and make a note of **Bot's Access Token NOT** ID (you need to scrolldown)
+1. go to: https://developer.webex.com/my-apps
+2. create yourself a new bot and make a note of **Bot's Access Token NOT ID** (you'll need to scrolldown)
 
 ### Getting started
 You need a machine with Docker. Both Linux and window are supported and should just work for Mac as well.
@@ -25,7 +25,7 @@ The most trendy container technology for running modern software apps particulal
 read up more @ https://www.docker.com/what-docker
 
 #### 2. Ngrok
-**problem**: for events between spark and your bot you need a public interface (webhook) where you can recieve events about new messages ect.
+**problem**: for events between Webex Teams Cloud Services and your bot, you need a public interface (webhook) where you can recieve events about new messages ect.
 
 You can setup a cloud instances which can be good for a production version of your bot but for development turnaround your laptop makes a lot of sense. And ngrok is pretty neat, in the sense that you can have a public listening web interface from your machine behind a NAT.
 
