@@ -1,9 +1,11 @@
 # DockerSparkBotExample
-This should get you started with a Cisco Spark Bot very quickly.
+This should get you started with a *Cisco WebexTeams Bot very quickly.
 
-### Getting started with spark 
-1. https://www.ciscospark.com/
-2. click "Get Started Free" and make yourself an account
+*used to be called Cisco Spark
+
+### Getting started with Cisco Webex Teams 
+1. https://www.webex.com/products/teams/index.html
+2. click "Sign In" and enter your email address. Then follow the instructions presented.
 
 ### How to get my first bot
 1. go to: https://developer.ciscospark.com/apps.html
