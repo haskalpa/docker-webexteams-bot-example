@@ -34,7 +34,7 @@ read up more @ https://ngrok.com/product
 ## Actually getting started
 ### 1. clone this repo recursively with submodules
 ```
-git clone --recursive https://github.com/haskalpa/docker-spark-bot-example.git
+git clone --recursive https://github.com/haskalpa/docker-webexteams-bot-example.git
 ```
 ### 2. make new config file with your new Bot's Access Token
 may be:
