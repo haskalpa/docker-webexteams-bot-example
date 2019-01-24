@@ -1,4 +1,4 @@
-# Cisco Webex Teams Bot: Getting started
+# Cisco Webex Teams Bot: Getting Started
 
 A Cisco Webex Teams bot is an automated user within the Webex Teams platform that can be interacted with, enhancing the user experience within an organisation. The following instructions will guide you through the steps required to create and run your own Cisco Webex Teams Bot.
 
@@ -236,7 +236,7 @@ Here you will find your script running, a line with `python hello_bot.py` as the
 kill 23
 ```
 
-If you want to confirm the previous step, run `ps auxw` again and check that the `python hello_bot.py` line disappeared. You can now make changes or corrections in your `hello_bot.py` script. To run it again, you just need to run the following command.
+If you want to confirm the previous step, run `ps auxw` again and check that the `python hello_bot.py` line has disappeared. You can now make changes to your `hello_bot.py` script. To run it again, you just need to run the following command.
 
 ```sh
 python hello_bot.py
