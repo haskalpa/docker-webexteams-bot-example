@@ -87,7 +87,7 @@ sudo apt-get update
 sudo apt-get install docker-ce
 ````
 
-* **Install Docker on Windows **
+* **Install Docker on Windows**
 
 Go to the [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/) webpage and click on **Get Docker Toolbox for Windows** to start download. Follow the installation, accept admin prompts and requests to install network adapters.
 
@@ -98,7 +98,7 @@ Please find instructions on how to install Docker on other Operating Systems [he
 <a name="setup"></a>
 ## Setup Bot
 
-### Create a Bot
+### 1. Create a Bot
 
 Go to [Cisco Webex for Developers](https://developer.webex.com/) and log in with your **Cisco Webex Teams** account details.
 
@@ -108,7 +108,7 @@ To proceed, click on the **Create a Bot** button and fill up all the required in
 
 Click on **Regenerate Access Token** and save it since you will need it later.
 
-### Open Terminal and Define Working Directory
+### 2. Open Terminal and Define Working Directory
 
 * **Non-Windows Users**
 
@@ -126,7 +126,7 @@ Note that if `c` isn't your Windows drive letter, you must replace it with the c
 
 Remember that you must continue working on this terminal for the following steps.
 
-### Clone git Repository
+### 3. Clone git Repository
 
 Clone the current git repository recursively with submodules to your local machine by running the following command on your terminal.
 
@@ -136,7 +136,7 @@ git clone --recursive https://github.com/haskalpa/docker-webexteams-bot-example.
 
 If you run the command `ls`, you will find all the directories and files inside your current directory. To go to directory you have just cloned simply run `cd docker-webexteams-bot-example`. Try running `ls` and check that you can see all the files you will need to get your Bot up and running.
 
-### Configure with Access Token
+### 4. Configure with Access Token
 
 Remember the access token for the bot that you saved earlier? Here is where you will need it.
 
@@ -152,7 +152,7 @@ teams_access_token: <my_bot_access_token>
 
 Yep, you guessed it! Replace `<my_bot_access_token>` with the Access Token you save during the **Create a Bot** step.
 
-### Build Docker container
+### 5. Build Docker container
 
 Back to the terminal window: run the following command to build your Docker container.
 
@@ -165,7 +165,7 @@ After a couple of seconds, you should get a `Successfully built` message in your
 <a name="run"></a>
 ## Run Bot
 
-### Run Docker container
+### 1. Run Docker container
 
 If you are a **Windows user**, you will need to start with **Step 1**. If not, just skip this step and go directly to **Step 2**.
 
@@ -183,7 +183,7 @@ Run the Docker container with the following command.
 ./run_hello_bot.sh
 ```
 
-### Interact with your Bot
+### 2. Interact with your Bot
 
 Login to your [Webex Teams](https://teams.webex.com/) account and **Create a space** by clicking the **+** button. Chose a name for the new space. Then, add your Bot to this space with the **Bot Username** you specified during the Create a Bot step. The format of this username should be **XXXX@webex.bot**.
 
