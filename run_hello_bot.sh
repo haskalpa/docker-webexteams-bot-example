@@ -13,4 +13,4 @@ docker run -itd \
 -v $REPO_DIR/config:/opt/config \
 -e PYTHONPATH=/workspace/ \
 --entrypoint /workspace/run.sh \
-haskalpa/docker-spark-bot-example $@
+hello_bot $@
