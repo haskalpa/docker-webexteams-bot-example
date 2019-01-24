@@ -142,7 +142,7 @@ Remember the access token for the bot that you saved earlier? Here is where you 
 
 Open the folder that you have just created, **docker-webexteams-bot-example**. Inside you will find a folder named **config**, open it. Then, create a copy of the **config_example.yaml** file and rename it to **config.yaml**.
 
-Open the new file with your favourite text editor. If you still do not have one, take a quick look at [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) or (in case you are a very brave developer) [Vim](https://www.vim.org). The
+Open the new file with your favourite text editor. If you still do not have one, take a quick look at [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) or (in case you are a very brave developer) [Vim](https://www.vim.org). This is what the file contents should look like:
 
 ````sh
 ---
