@@ -175,6 +175,8 @@ Open **Notepad++** and open the file **run_hello_bot.sh**. You don't have Notepa
 
 Once you have opened the file, go to the **Edit** menu on the top bar and click **EOL Conversion**. Set this to **Unix (LF)**. Then, save the file and close Notepad++.
 
+Repeat the above with **hello_bot/run.sh**.
+
 **Step 2**
 
 Run the Docker container with the following command.
