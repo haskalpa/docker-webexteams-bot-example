@@ -189,7 +189,7 @@ Run the Docker container with the following command.
 
 Login to your [Webex Teams](https://teams.webex.com/) account and **Create a space** by clicking the **+** button. Chose a name for the new space. Then, add your Bot to this space with the **Bot Username** you specified during the Create a Bot step. The format of this username should be **XXXX@webex.bot**.
 
-Say hello to your bot by typing and saying something `hello`. If the bot replies `hello, person who has email <your email>`, congratulations! You managed to set up your first Bot.
+Say hello to your bot by tagging it using it's name, then typing hello. Typing and saying `@<botname> hello` should have the bot reply `hello, person who has email <your email>`, congratulations! You managed to set up your first Bot.
 
 <a name="understanding"></a>
 ## Understanding the Bot
