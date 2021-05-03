@@ -11,5 +11,5 @@ def write_yaml_data(fpath, data):
 
 def read_yaml_data(fpath):
     with open(fpath, 'r') as ymlfile:
-        data = yaml.load(ymlfile)
+        data = yaml.safe_load(ymlfile)
     return data
